@@ -16,8 +16,31 @@
     width: 200px;
     height: 200px;
     text-align: left;
-    /* display: flex;
-    align-items: flex-end;
-    position: absolute; */
     padding-bottom: 30px;
+}
+
+main{
+    margin: 15px;
+}
+
+
+#intestazione{
+    background-color:  #20A9E5;
+    color: white;
+}
+th,td,tr{
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+}
+tr:nth-child(odd) {
+    background-color:#B1E5F2;
+}
+
+p{
+    padding-top: 30px;
+}
+
+h3{
+    color: #808080 ;
 }
