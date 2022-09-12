@@ -1,9 +1,10 @@
+/*SPAZIATO GLI ELEMENTI DI TUTTO IL FILE*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* FORMATTAZIONE STILE DEL BACKGROUND DELL'HEADER */
 .bg{
     background:url(../img/pattern.png);
     background-color: #4EA0FF;
@@ -12,6 +13,7 @@
     height: 120px;
 }
 
+/* FORMATTAZIONE STILE DEL LOGO ALL'INTERNO DELL'HEADER */
 #logo{
     width: 200px;
     height: 200px;
@@ -19,20 +21,23 @@
     padding-bottom: 30px;
 }
 
+/* CREATO LEGGERO DISTACCO TRA TESTO HEADER E TESTO DEL MAIN */
 main{
     margin: 15px;
 }
 
-
+/* STILE INTESTAZIONE TABELLA */
 #intestazione{
     background-color:  #20A9E5;
     color: white;
 }
+/* TENTATO DI RENDERE LA TABELLA GUARDABILE CON SCARSI RISULTATI */
 th,td,tr{
     text-align: left;
     padding: 15px;
     margin: 0;
 }
+/* AGGIUNTO COLORE SOLO SULLE CELLE DISPARI */
 tr:nth-child(odd) {
     background-color:#B1E5F2;
 }
@@ -43,4 +48,24 @@ p{
 
 h3{
     color: #808080 ;
+}
+
+/* DATO STILE AD ENTRAMBI I DIV DEL FOOTER */
+.imgfooter{
+    background-size: 200px 200px;
+    color: white;
+    background-repeat: no-repeat;
+    text-align: left;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+/* IMG DEL PRIMO DIV */
+#img1{
+    background-image: url(../img/monitor.jpg);
+    
+}
+/* IMG DEL SECONDO DIV */
+#img2{
+    background-image: url(../img/graph.jpg);
 }
